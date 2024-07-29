@@ -664,11 +664,17 @@
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>/Users/jessicaarmitage/Documents/GitHub/gamedevelopmentgroup/CPUCity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>/Users/jessicaarmitage/Documents/GitHub/gamedevelopmentgroup/CPUCity/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>/Users/jessicaarmitage/Documents/GitHub/gamedevelopmentgroup/CPUCity/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
  <HintPath>/Users/jessicaarmitage/Documents/GitHub/gamedevelopmentgroup/CPUCity/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>/Users/jessicaarmitage/Documents/GitHub/gamedevelopmentgroup/CPUCity/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.cinemachine.editor">
  <HintPath>/Users/jessicaarmitage/Documents/GitHub/gamedevelopmentgroup/CPUCity/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
@@ -684,12 +690,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/jessicaarmitage/Documents/GitHub/gamedevelopmentgroup/CPUCity/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>/Users/jessicaarmitage/Documents/GitHub/gamedevelopmentgroup/CPUCity/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>/Users/jessicaarmitage/Documents/GitHub/gamedevelopmentgroup/CPUCity/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
