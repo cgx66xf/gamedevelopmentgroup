@@ -158,6 +158,8 @@
      <Compile Include="Assets\Scripts\FSM\NpcFSM.cs" />
      <Compile Include="Assets\Scripts\FSM\PatrolState.cs" />
      <Compile Include="Assets\Scripts\FSM\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\IdleBehaviour.cs" />
+     <Compile Include="Assets\Scripts\IdleBehaviourEdit.cs" />
      <Compile Include="Assets\Scripts\MinionAttack.cs" />
      <Compile Include="Assets\Scripts\MinionHit.cs" />
      <Compile Include="Assets\Scripts\Minions.cs" />
