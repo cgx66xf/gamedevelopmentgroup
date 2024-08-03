@@ -58,11 +58,29 @@ public class OneWheelMovement : MonoBehaviour
     private void FixedUpdate()
     {
         // get input from move (relative to the camera)
+
+        float xInput = move.ReadValue<Vector2>().x;
+        float yInput = move.ReadValue<Vector2>().y;
+
+        if (playerActions.Player.Run.ReadValue<float>() <= 0)
+        {
+            movementForce = 0.4f;
+            Debug.Log("We not running");
+        }
+        else
+        {
+            movementForce = 1f;
+        }
+
         forceDirection += move.ReadValue<Vector2>().x * GetCameraRight(playerCamera) * movementForce;
         forceDirection += move.ReadValue<Vector2>().y * GetCameraForward(playerCamera) * movementForce;
 
         rb.AddForce(forceDirection, ForceMode.Impulse);//accelerate character when moving up to max speed
         forceDirection = Vector3.zero;
+
+        
+
+
 
         //improve gamefeel of jump by making character fall faster
         if (rb.velocity.y < 0f)
@@ -71,6 +89,7 @@ public class OneWheelMovement : MonoBehaviour
         //cap horizontal speed 
         Vector3 horizontalVelocity = rb.velocity;
         horizontalVelocity.y = 0;
+
         //check magnitude and inperceptibly slow down when character reaches max velocity to ensure smooth 'braking'
         if (horizontalVelocity.sqrMagnitude > maxSpeed * maxSpeed)
             rb.velocity = horizontalVelocity.normalized * maxSpeed + Vector3.up * rb.velocity.y;
