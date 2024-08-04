@@ -161,11 +161,14 @@
      <Compile Include="Assets\Scripts\FSM\NpcFSM.cs" />
      <Compile Include="Assets\Scripts\FSM\PatrolState.cs" />
      <Compile Include="Assets\Scripts\FSM\PlayerMovement.cs" />
+<<<<<<< HEAD
      <Compile Include="Assets\Scripts\IdleBehaviour.cs" />
      <Compile Include="Assets\Scripts\IdleBehaviourEdit.cs" />
      <Compile Include="Assets\Scripts\Interaction\NPCInteractable.cs" />
      <Compile Include="Assets\Scripts\Interaction\PlayerInteract.cs" />
      <Compile Include="Assets\Scripts\Interaction\PlayerInteractUI.cs" />
+=======
+>>>>>>> parent of 7f536b2f (Added Random Idle Animations to NPCs)
      <Compile Include="Assets\Scripts\MinionAttack.cs" />
      <Compile Include="Assets\Scripts\MinionHit.cs" />
      <Compile Include="Assets\Scripts\Minions.cs" />
