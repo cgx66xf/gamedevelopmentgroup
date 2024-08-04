@@ -65,7 +65,6 @@ public class OneWheelMovement : MonoBehaviour
         if (playerActions.Player.Run.ReadValue<float>() <= 0)
         {
             movementForce = 0.4f;
-            Debug.Log("We not running");
         }
         else
         {
